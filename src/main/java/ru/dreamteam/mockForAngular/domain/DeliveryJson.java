@@ -51,7 +51,6 @@ public class DeliveryJson {
     private String invoice;
 
     public void updateAllFieldsWithoutId(DeliveryJson updatedDelivery) {
-        this.id = updatedDelivery.getId();
         this.deliveryDate = updatedDelivery.getDeliveryDate();
         this.deliveryTime = updatedDelivery.getDeliveryTime();
         this.carInfo = updatedDelivery.getCarInfo();
